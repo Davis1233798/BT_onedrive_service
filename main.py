@@ -6,8 +6,10 @@ import argparse
 import schedule
 import json
 from pathlib import Path
+from transmission_rpc import Client
+from tqdm import tqdm
 
-from scripts.bt_downloader import BTDownloader
+from scripts.bt_downloader_transmission import BTDownloader
 from scripts.onedrive_uploader import OneDriveUploader
 from config.config import (
     DOWNLOAD_DIR, MAX_DOWNLOAD_RATE, MAX_UPLOAD_RATE,
