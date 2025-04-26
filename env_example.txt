@@ -1,0 +1,14 @@
+# BT 下載設定
+DOWNLOAD_DIR=./downloads
+MAX_DOWNLOAD_RATE=0
+MAX_UPLOAD_RATE=50
+
+# OneDrive API設定
+ONEDRIVE_CLIENT_ID=your_client_id_here
+ONEDRIVE_CLIENT_SECRET=your_client_secret_here
+ONEDRIVE_TENANT_ID=common
+ONEDRIVE_REDIRECT_URI=http://localhost:8000/callback
+ONEDRIVE_UPLOAD_FOLDER=/BTDownloads
+
+# 服務設定
+CHECK_INTERVAL=300 
